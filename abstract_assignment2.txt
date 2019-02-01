@@ -1,0 +1,10 @@
+StackOverflow is one of the most popular online discussion forums to about programming problems. 
+Usually, StackOvarflow posts contains two different kinds of blocks: text blocks and code blocks.
+In text blocks, users provide questions, answers, and explanations in natural language text. 
+In the code blocks, users provide actual codes or commands to provide the detailed situations or solutions.
+However, usually, users include simple codes or commands into text blocks as in-line codes. 
+These in-line codes contain crucial information but are not distinguished from other natural language sentences. 
+Therefore, when mining codes from StackOverflow data, those in-line codes are often missed. 
+This paper presents an approach to distinguish in-line codes in text blocks by using a simple language model. 
+We use SOTorrent, which is a torrent data obtained from StackOverflow dump data, to extract both text blocks and code blocks. 
+For the evaluation, due to the lack of labelled StackOverflow dataset, we also manually labelled extracted text data to create development and test datasets. 
