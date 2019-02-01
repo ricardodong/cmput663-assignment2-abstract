@@ -6,5 +6,6 @@ However, sometimes, users include simple codes or commands into text blocks as i
 These in-line codes contain crucial information but are not distinguished from other natural language sentences in existing database. 
 Therefore, when mining codes from StackOverflow data, those in-line codes are often missed. 
 This paper presents an approach to distinguish in-line codes in text blocks by using a simple language model. 
-To building the language model, we use code blocks extracted from SOTorrent, which is a torrent data obtained from StackOverflow dump data. For the evaluation, due to the lack of labelled in-line code in StackOverflow dataset, we also manually labelled extracted text data to create development and test datasets. 
+To building the language model, we use code blocks extracted from SOTorrent, which is a torrent data obtained from StackOverflow dump data. 
+For the evaluation, due to the lack of labelled in-line code in StackOverflow dataset, we also manually labelled extracted text data to create development and test datasets. 
 We also expect this model can be used in other situations that developers want to extract codes from natural language text. 
